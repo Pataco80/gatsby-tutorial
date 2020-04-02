@@ -1,0 +1,11 @@
+.page{
+  background-color: aqua;
+}
+.page h1{
+  color:brown;
+}
+.text{
+text-decoration: underline;
+font-size: 1.5rem;
+font-style: italic;
+}

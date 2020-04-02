@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300;400;500;600;700&display=swap');
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+::before,
+::after {
+  text-decoration: inherit;
+  vertical-align: inherit;
+}
+body{
+  margin: 0;
+  padding: 0 1rem;
+  font-size: 100%;
+}
+h1{
+font-family: 'Lemonada', cursive;
+font-size: 2rem;
+font-weight: 700;
+}
