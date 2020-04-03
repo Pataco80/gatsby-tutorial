@@ -20,7 +20,6 @@ const HeaderStatic = () => (
       }
     `}
     render={data => {
-      console.log(data)
       const { identity: { age }, cats } = data.site.info
       return (
         <div>
