@@ -22,7 +22,7 @@ const Header = () => {
   const { title, identity: { name }, author } = data.site.info
   return (
     <div>
-      <h1>{title}</h1>
+      <p>{title}</p>
       <p>{name}</p>
       <p>{author}</p>
     </div>

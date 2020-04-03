@@ -13,8 +13,8 @@ const exemples = ({ data }) => {
       <Header />
       <HeaderStatic />
       <div>
-        <h3>My page query</h3>
-        <h4>{title}</h4>
+        <p>My page query</p>
+        <p>{title}</p>
         <p>{name}</p>
         <p>{age}</p>
       </div>

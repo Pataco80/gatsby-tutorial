@@ -23,7 +23,7 @@ const HeaderStatic = () => (
       const { identity: { age }, cats } = data.site.info
       return (
         <div>
-          <h3>Je suis le rendu du Staticquery</h3>
+          <p>Je suis le rendu du Staticquery</p>
           <p>{data.site.info.description}</p>
           <p>{age}</p>
           <p>{cats[0]}</p>
