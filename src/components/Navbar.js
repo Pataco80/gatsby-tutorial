@@ -18,6 +18,9 @@ const Navbar = () => {
           <Link to="/404/">The error page</Link>
         </li>
         <li>
+          <Link to="/exemples/">The exemple page</Link>
+        </li>
+        <li>
           <a href="https://www.gatsbyjs.org/docs/" target="_blank" rel="noreferrer noopener">Go the gatsby docs</a>
         </li>
       </ul>
