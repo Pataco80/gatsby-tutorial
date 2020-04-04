@@ -11,7 +11,7 @@
   margin-left: 2rem;
   color: grey;
 }
-.page div {
+> .page div {
   height: 15rem;
 }
 @media screen and (min-width: 768px) {
