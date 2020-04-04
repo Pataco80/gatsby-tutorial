@@ -5,10 +5,13 @@ import { Link } from "gatsby"
 import styles from "../css/product.module.css"
 import Img from "gatsby-image"
 const products = ({ data }) => {
+  // insère chaque produit dans une variable nomée "products" provenant de chaque noeud (nodes:products)
   const {
     allContentfulProduct: { nodes: products },
   } = data
-  console.log(products)
+
+  // Affiche la liste des produits
+  //console.log(products)
   return (
     <Layout>
       <h1>Products page</h1>
